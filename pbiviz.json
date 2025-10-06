@@ -1,0 +1,27 @@
+{
+    "visual": {
+        "name": "headericon",
+        "displayName": "Icon and Header",
+        "guid": "headericon4A63617C831B4781846737DE8050676F",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "A custom visual to display an image and two lines of text.",
+        "supportUrl": "https://github.com/your-username/headericon/issues",
+        "gitHubUrl": "https://github.com/your-username/headericon",
+        "suppressDefaultTitle": true 
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "Edward Charles",
+        "email": "edward@enterprisedatastrategies.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

@@ -1,0 +1,28 @@
+.header-container {
+    display: flex;
+    flex-direction: row;           /* horizontal layout */
+    align-items: center;           /* vertical centering */
+    justify-content: flex-start;   /* left-align the row */
+    height: 100%;
+    padding: 0 20px;               /* remove top/bottom padding */
+    box-sizing: border-box;
+}
+
+.header-image {
+    display: block;
+    width: auto;
+    object-fit: contain;
+}
+
+.header-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.header-title,
+.header-subtitle {
+    margin: 0;
+}

@@ -1,0 +1,154 @@
+{
+    "privileges": [],
+    "supportsHighlight": false,
+    "supportsSynchronizingFilterState": false,
+    "supportsMultiVisualSelection": false,
+    "supportsLandingPage": true,
+    "supportsEmptyDataView": true,
+    
+    "dataRoles": [
+    {
+        "name": "imageUrl",
+        "kind": "Measure",
+        "displayName": "Image URL"
+    }
+    ],
+    "dataViewMappings": [
+        {
+            "table": {
+            "rows": {
+                "select": [
+                {
+                    "bind": {
+                    "to": "imageUrl"
+                    },
+                    "optional": true
+                }
+                ]
+            }
+            }
+        }
+        ],
+    "objects": {
+        "imageSettings": {
+            "displayName": "Image",
+            "properties": {
+                "imageHeight": {
+                    "displayName": "Image Height (px)",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "spacebetweenText": {
+                    "displayName": "Margin Right (px)",
+                    "type": {
+                        "numeric": true
+                    }
+                },
+                "marginRight": {
+                    "displayName": "Margin Right (px)",
+                    "type": {
+                        "numeric": true
+                    }
+                }
+            }
+        },
+        "textSettings": {
+            "displayName": "Text",
+            "properties": {
+                "titleText": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "titlefontFamily": {
+                "type": {
+                    "formatting": {
+                    "fontFamily": true
+                    }
+                }
+                },
+                "titlefontSize": {
+                "type": {
+                    "formatting": {
+                    "fontSize": true
+                    }
+                }
+                },
+                "titlebold": {
+                "type": {
+                    "bool": true
+                }
+                },
+                "titleitalic": {
+                "type": {
+                    "bool": true
+                }
+                },
+                "titleunderline": {
+                "type": {
+                    "bool": true
+                }
+                },
+                "titlecolor": {
+                "type": {
+                    "fill": {
+                    "solid": {
+                        "color": true
+                    }
+                    }
+                }
+                },
+                "subtitleText": {
+                    "type": {
+                        "text": true
+                    }
+                },
+                "subtitlefontFamily": {
+                    "type": {
+                        "formatting": {
+                        "fontFamily": true
+                        }
+                    }
+                },
+                "subtitlefontSize": {
+                "type": {
+                    "formatting": {
+                    "fontSize": true
+                    }
+                }
+                },
+                "subtitlebold": {
+                "type": {
+                    "bool": true
+                }
+                },
+                "subtitleitalic": {
+                "type": {
+                    "bool": true
+                }
+                },
+                "subtitleunderline": {
+                "type": {
+                    "bool": true
+                }
+                },
+                "subtitlecolor": {
+                    "type": {
+                        "fill": {
+                        "solid": {
+                            "color": true
+                        }
+                        }
+                    }
+                    },
+                    "lineSpacing": {
+                        "displayName": "Line Spacing (px)",
+                        "type": {
+                            "numeric": true
+                        }
+                    }
+            }
+        }
+    }
+}

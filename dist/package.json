@@ -1,0 +1,17 @@
+{
+		"version": "1.0.0.0",
+		"author": {"name":"Edward Charles","email":"edward@enterprisedatastrategies.com"},
+		"resources": [
+			{
+				"resourceId": "rId0",
+				"sourceType": 5,
+				"file": "resources/headericon4A63617C831B4781846737DE8050676F.pbiviz.json"
+			}
+		],
+		"visual": {"name":"headericon","displayName":"Icon and Header","guid":"headericon4A63617C831B4781846737DE8050676F","visualClassName":"Visual","version":"1.0.0.0","description":"A custom visual to display an image and two lines of text.","supportUrl":"https://github.com/your-username/headericon/issues","gitHubUrl":"https://github.com/your-username/headericon"},
+		"metadata": {
+			"pbivizjson": {
+				"resourceId": "rId0"
+			}
+		}
+	}
