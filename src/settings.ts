@@ -2,6 +2,8 @@ import {
     formattingSettings,
     FormattingSettingsService
 } from "powerbi-visuals-utils-formattingmodel";
+import powerbi from "powerbi-visuals-api";
+
 
 export class ImageSettings extends formattingSettings.SimpleCard {
     public imageHeight = new formattingSettings.Slider({
@@ -53,7 +55,8 @@ export class TextSettings extends formattingSettings.SimpleCard {
         name: "titleText",
         displayName: "Line 1 Text",
         placeholder: "Enter line 1 text...",
-        value: ""
+        value: "",
+        instanceKind: powerbi.VisualEnumerationInstanceKinds.ConstantOrRule
     });
 
     public titlefontFamily: formattingSettings.FontPicker = new formattingSettings.FontPicker({
@@ -102,7 +105,8 @@ export class TextSettings extends formattingSettings.SimpleCard {
         name: "subtitleText",
         displayName: "Line 2 Text",
         placeholder: "Enter line 2 text...",
-        value: ""
+        value: "",
+        instanceKind: powerbi.VisualEnumerationInstanceKinds.ConstantOrRule
     });
     
     public subtitlefontFamily: formattingSettings.FontPicker = new formattingSettings.FontPicker({
